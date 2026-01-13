@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { Phone } from 'lucide-react';
 import { businessInfo } from '@/lib/data';
 
@@ -9,11 +10,13 @@ export default function Hero() {
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{
-            backgroundImage: 'url(/assets/barbershop-images/barbershop-image-001.jpg)',
-          }}
+        <Image
+          src="/assets/barbershop-images/barbershop-image-001.jpg"
+          alt="Family Ties Barbershop"
+          fill
+          priority
+          quality={90}
+          className="object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/90" />
       </div>

@@ -1,10 +1,10 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-const inter = Inter({ 
+const inter = Inter({
   subsets: ["latin"],
   variable: '--font-inter',
 });
@@ -14,10 +14,26 @@ export const metadata: Metadata = {
   description: "North Mankato's home for precision haircuts, beard trims, and premium grooming. Book with Alex, Ty, Donnie, or Mike today.",
   keywords: "barbershop, haircut, North Mankato, Minnesota, beard trim, men's grooming, family ties",
   openGraph: {
-    title: "Family Ties Barbershop",
-    description: "Precision. Style. Family.",
+    title: "Family Ties Barbershop | Premium Haircuts in North Mankato, MN",
+    description: "North Mankato's home for precision haircuts, beard trims, and premium grooming. Book with Alex, Ty, Donnie, or Mike today.",
     type: "website",
+    locale: "en_US",
+    siteName: "Family Ties Barbershop",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Family Ties Barbershop | Premium Haircuts in North Mankato, MN",
+    description: "North Mankato's home for precision haircuts, beard trims, and premium grooming.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
