@@ -66,7 +66,7 @@ export const barbers: Barber[] = [
     name: 'Alex',
     bio: 'Master barber with 10+ years of experience. Specializes in modern fades and classic cuts.',
     specialties: ['Fades', 'Modern Styles', 'Beard Sculpting'],
-    image: '/assets/barbershop-images/barbershop-image-001.jpg',
+    image: '/assets/barbershop-images/alex/alex_headshot.jpg',
   },
   {
     id: 'ty',
