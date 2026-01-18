@@ -31,7 +31,7 @@ export default function About() {
         {/* Image */}
         <div className="relative h-[500px] rounded-lg overflow-hidden">
           <Image
-            src="/assets/barbershop-images/barbershop-image-005.jpg"
+            src="/assets/barbershop-images/alex/alex_cut_03.jpg"
             alt="Family Ties Barbershop Interior"
             fill
             className="object-cover"
