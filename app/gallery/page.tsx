@@ -10,7 +10,7 @@ const galleryImages = [
   '/assets/barbershop-images/alex/alex_cut_02.jpg',
   '/assets/barbershop-images/barbershop-image-004.jpg',
   '/assets/barbershop-images/alex/alex_cut_03.jpg',
-  '/assets/barbershop-images/barbershop-image-006.jpg',
+  '/assets/barbershop-images/alex/alex_cut_04.jpg',
   '/assets/barbershop-images/barbershop-image-007.jpg',
   '/assets/barbershop-images/barbershop-image-011.jpg',
   '/assets/barbershop-images/barbershop-image-012.jpg',
