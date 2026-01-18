@@ -6,7 +6,7 @@ import { X } from 'lucide-react';
 
 const galleryImages = [
   '/assets/barbershop-images/barbershop-image-001.jpg',
-  '/assets/barbershop-images/barbershop-image-002.jpg',
+  '/assets/barbershop-images/alex/alex_cut_01.jpg',
   '/assets/barbershop-images/barbershop-image-003.jpg',
   '/assets/barbershop-images/barbershop-image-004.jpg',
   '/assets/barbershop-images/barbershop-image-005.jpg',

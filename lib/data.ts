@@ -73,7 +73,7 @@ export const barbers: Barber[] = [
     name: 'Ty',
     bio: 'Expert in traditional barbering techniques with a contemporary edge.',
     specialties: ['Classic Cuts', 'Hot Shaves', 'Texture Work'],
-    image: '/assets/barbershop-images/barbershop-image-002.jpg',
+    image: '/assets/barbershop-images/alex/alex_cut_01.jpg',
   },
   {
     id: 'donnie',
