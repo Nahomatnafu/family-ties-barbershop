@@ -17,7 +17,6 @@ const galleryImages = [
   '/assets/barbershop-images/donny/donny_cut_02.jpg',
   '/assets/barbershop-images/barbershop-image-014.jpg',
   '/assets/barbershop-images/donny/donny_cut_03.jpg',
-  '/assets/barbershop-images/barbershop-image-016.jpg',
   '/assets/barbershop-images/barbershop-image-017.jpg',
   '/assets/barbershop-images/barbershop-image-018.jpg',
   '/assets/barbershop-images/barbershop-image-019.jpg',
