@@ -20,7 +20,7 @@ export const services: Service[] = [
     id: 'haircut',
     name: 'Haircut',
     description: 'Precision cut tailored to your style. Includes consultation, cut, and styling.',
-    price: 35,
+    price: 37,
     duration: 45,
   },
   {
@@ -41,15 +41,22 @@ export const services: Service[] = [
     id: 'kids-cut',
     name: 'Kids Cut',
     description: 'Haircut for children 12 and under. Patient and professional.',
-    price: 25,
+    price: 27,
     duration: 30,
   },
   {
     id: 'haircut-beard',
     name: 'Haircut + Beard',
     description: 'Complete grooming package with haircut and beard trim.',
-    price: 50,
+    price: 45,
     duration: 60,
+  },
+  {
+    id: 'lining',
+    name: 'Lining',
+    description: 'Sharp edge-up and line work for a clean, defined look.',
+    price: 15,
+    duration: 20,
   },
   {
     id: 'premium-grooming',
