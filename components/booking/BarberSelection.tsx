@@ -34,7 +34,7 @@ export default function BarberSelection({ selectedBarberId, onSelect }: BarberSe
               )}
 
               {/* Barber Image */}
-              <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
+              <div className="relative h-80 mb-4 rounded-lg overflow-hidden">
                 <Image
                   src={barber.image}
                   alt={barber.name}
