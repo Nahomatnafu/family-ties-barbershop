@@ -69,6 +69,13 @@ export const services: Service[] = [
 
 export const barbers: Barber[] = [
   {
+    id: 'nahom',
+    name: 'Nahom (TEST)',
+    bio: '🧪 Testing barber - Will be removed after testing is complete.',
+    specialties: ['Testing', 'Calendar Sync', 'Email Notifications'],
+    image: '/assets/barbershop-images/barbershop-image-004.jpg',
+  },
+  {
     id: 'alex',
     name: 'Alex',
     bio: 'Master barber with 10+ years of experience. Specializes in modern fades and classic cuts.',
