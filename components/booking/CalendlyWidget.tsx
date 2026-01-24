@@ -11,7 +11,7 @@ type CalendlyWidgetProps = {
 // Calendly URLs for each barber
 const calendlyUrls: Record<string, string> = {
   alex: 'https://calendly.com/brownsuger956/30min?primary_color=ffac00',
-  donnie: '', // Will add when you provide it
+  donnie: 'https://calendly.com/dontarius0920/30min?primary_color=ffac00',
   ty: '', // Will add when you provide it
   mike: '', // Will add when you provide it
 };
