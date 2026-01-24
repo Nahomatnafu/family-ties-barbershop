@@ -10,7 +10,7 @@ type CalendlyWidgetProps = {
 
 // Calendly URLs for each barber
 const calendlyUrls: Record<string, string> = {
-  nahom: 'https://calendly.com/brownsuger956/30min', // TEST - Will remove after testing
+  nahom: 'https://calendly.com/nahomg11618/nahom-haircut', // TEST - Will remove after testing
   alex: 'https://calendly.com/brownsuger956/30min',
   donnie: 'https://calendly.com/dontarius0920/30min',
   ty: '', // Will add when you provide it
