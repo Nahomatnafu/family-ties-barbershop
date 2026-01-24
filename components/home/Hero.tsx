@@ -11,7 +11,7 @@ export default function Hero() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/assets/barbershop-images/barbershop-image-001.jpg"
+          src="/assets/barbershop-images/hero/family-ties-hero-v01.png"
           alt="Family Ties Barbershop"
           fill
           priority
