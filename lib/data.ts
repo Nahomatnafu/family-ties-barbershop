@@ -83,17 +83,17 @@ export const barbers: Barber[] = [
     image: '/assets/barbershop-images/alex/alex_cut_01.jpg',
   },
   {
-    id: 'donnie',
-    name: 'Donnie',
-    bio: 'Creative stylist known for precision cuts and attention to detail.',
-    specialties: ['Precision Cuts', 'Line Work', 'Kids Cuts'],
-    image: '/assets/barbershop-images/barbershop-image-016.jpg',
-  },
-  {
     id: 'mike',
     name: 'Mike',
     bio: 'Versatile barber bringing fresh energy and modern techniques to every cut.',
     specialties: ['Modern Fades', 'Beard Design', 'Styling'],
+    image: '/assets/barbershop-images/barbershop-image-016.jpg',
+  },
+  {
+    id: 'donnie',
+    name: 'Donnie',
+    bio: 'Creative stylist known for precision cuts and attention to detail.',
+    specialties: ['Precision Cuts', 'Line Work', 'Kids Cuts'],
     image: '/assets/barbershop-images/barbershop-image-001.jpg',
   },
 ];
