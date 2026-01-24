@@ -5,7 +5,7 @@ import { useSearchParams } from 'next/navigation';
 import StepIndicator from '@/components/booking/StepIndicator';
 import BarberSelection from '@/components/booking/BarberSelection';
 import ServiceSelection from '@/components/booking/ServiceSelection';
-import DateTimeSelection from '@/components/booking/DateTimeSelection';
+import CalendlyWidget from '@/components/booking/CalendlyWidget';
 import CustomerInfo from '@/components/booking/CustomerInfo';
 import Confirmation from '@/components/booking/Confirmation';
 
@@ -103,14 +103,8 @@ function BookingContent() {
           )}
 
           {currentStep === 3 && (
-            <DateTimeSelection
+            <CalendlyWidget
               barberId={bookingData.barberId!}
-              selectedDate={bookingData.date}
-              selectedTime={bookingData.time}
-              onSelect={(date, time) => {
-                updateBookingData({ date, time });
-                nextStep();
-              }}
               onBack={prevStep}
             />
           )}
