@@ -13,7 +13,7 @@ const calendlyUrls: Record<string, string> = {
   nahom: 'https://calendly.com/nahomg11618/nahom-haircut', // TEST - Will remove after testing
   alex: 'https://calendly.com/brownsuger956/30min',
   donnie: 'https://calendly.com/dontarius0920/30min',
-  ty: '', // Will add when you provide it
+  ty: 'https://calendly.com/ty782233/30min',
   mike: 'https://calendly.com/michaelroosevelt053/30min',
 };
 
