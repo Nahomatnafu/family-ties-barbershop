@@ -14,7 +14,7 @@ const calendlyUrls: Record<string, string> = {
   alex: 'https://calendly.com/brownsuger956/30min',
   donnie: 'https://calendly.com/dontarius0920/30min',
   ty: '', // Will add when you provide it
-  mike: '', // Will add when you provide it
+  mike: 'https://calendly.com/michaelroosevelt053/30min',
 };
 
 export default function CalendlyWidget({ barberId, onBack }: CalendlyWidgetProps) {
