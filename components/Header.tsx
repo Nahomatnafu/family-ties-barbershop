@@ -46,57 +46,67 @@ export default function Header() {
             <span className="font-display text-2xl text-gold-600">FAMILY TIES</span>
           </Link>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          {/* Desktop Navigation - Only show on large screens */}
+          <nav className="hidden lg:flex items-center space-x-6 xl:space-x-8">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-white hover:text-gold-600 transition-colors duration-200 font-medium"
+                className="text-white hover:text-gold-600 transition-colors duration-200 font-medium text-sm xl:text-base"
               >
                 {link.label}
               </Link>
             ))}
           </nav>
 
-          {/* CTA Buttons */}
-          <div className="hidden md:flex items-center space-x-4">
+          {/* CTA Buttons - Responsive */}
+          <div className="hidden lg:flex items-center space-x-3 xl:space-x-4">
             <a href="tel:507-720-0522" className="flex items-center space-x-2 text-white hover:text-gold-600 transition-colors">
               <Phone size={18} />
-              <span className="font-medium">507-720-0522</span>
+              <span className="font-medium text-sm xl:text-base">507-720-0522</span>
             </a>
-            <Link href="/booking" className="btn-primary">
+            <Link href="/booking" className="btn-primary text-sm xl:text-base px-4 xl:px-6">
               Book Now
             </Link>
           </div>
 
-          {/* Mobile Menu Button */}
+          {/* Tablet - Show only Book Now button */}
+          <div className="hidden md:flex lg:hidden items-center space-x-3">
+            <a href="tel:507-720-0522" className="text-white hover:text-gold-600 transition-colors">
+              <Phone size={20} />
+            </a>
+            <Link href="/booking" className="btn-primary text-sm px-4">
+              Book Now
+            </Link>
+          </div>
+
+          {/* Mobile/Tablet Menu Button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden text-white hover:text-gold-600 transition-colors"
+            className="lg:hidden text-white hover:text-gold-600 transition-colors"
           >
             {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
           </button>
         </div>
       </div>
 
-      {/* Mobile Menu */}
+      {/* Mobile/Tablet Menu */}
       {isMobileMenuOpen && (
-        <div className="md:hidden bg-black/98 backdrop-blur-md border-t border-zinc-800">
+        <div className="lg:hidden bg-black/98 backdrop-blur-md border-t border-zinc-800">
           <nav className="px-4 py-6 space-y-4">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="block text-white hover:text-gold-600 transition-colors py-2 font-medium"
+                className="block text-white hover:text-gold-600 transition-colors py-2 font-medium text-lg"
               >
                 {link.label}
               </Link>
             ))}
             <a
               href="tel:507-720-0522"
-              className="flex items-center space-x-2 text-white hover:text-gold-600 transition-colors py-2"
+              className="flex items-center space-x-2 text-white hover:text-gold-600 transition-colors py-2 md:hidden"
             >
               <Phone size={18} />
               <span className="font-medium">507-720-0522</span>
