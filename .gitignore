@@ -34,3 +34,9 @@ google-credentials.json
 *.tsbuildinfo
 next-env.d.ts
 
+# Documentation (not needed in production)
+/docs
+
+# IDE
+.vscode
+.idea
