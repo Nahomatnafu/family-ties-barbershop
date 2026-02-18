@@ -35,6 +35,7 @@ export default function About() {
             alt="Family Ties Barbershop Interior"
             fill
             className="object-cover"
+            style={{ objectPosition: '50% 35%' }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
         </div>
