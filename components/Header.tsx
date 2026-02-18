@@ -19,7 +19,6 @@ export default function Header() {
 
   const navLinks = [
     { href: '/', label: 'Home' },
-    { href: '/booking', label: 'Book Now' },
     { href: '/#services', label: 'Services' },
     { href: '/gallery', label: 'Gallery' },
     { href: '/#about', label: 'About' },
@@ -70,14 +69,11 @@ export default function Header() {
             </Link>
           </div>
 
-          {/* Tablet - Show only Book Now button */}
+          {/* Tablet - Show only phone icon (Book Now is in hamburger menu) */}
           <div className="hidden md:flex lg:hidden items-center space-x-3">
             <a href="tel:507-720-0522" className="text-white hover:text-gold-600 transition-colors">
               <Phone size={20} />
             </a>
-            <Link href="/booking" className="btn-primary text-sm px-4">
-              Book Now
-            </Link>
           </div>
 
           {/* Mobile/Tablet Menu Button */}
